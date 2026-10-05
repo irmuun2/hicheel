@@ -1223,11 +1223,6 @@ window.GalaxyArt = (function(){
     const sx = CX + 0.6*wid/2*A.SCALE, sy = CY;
     ctx.fillStyle = '#ffd54f'; ctx.beginPath(); ctx.arc(sx, sy, 6, 0, 6.2832); ctx.fill(); ctx.strokeStyle = '#ffd54f'; ctx.lineWidth = 2; ctx.beginPath(); ctx.arc(sx, sy, 15, 0, 6.2832); ctx.stroke();
     label(ctx, '☉ Нар', sx + 4, sy - 26, '#ffd54f', 20, 'center');
-    arrow(ctx, sx - 22, sy + 44, sx - 230, sy + 44, '#ffd27a'); label(ctx, 'Хавтгайн дагуу: олон од', sx - 126, sy + 76, '#ffd27a', 17, 'center'); label(ctx, '→ гэрэлтсэн зурвас', sx - 126, sy + 98, '#ffd27a', 17, 'center');
-    arrow(ctx, sx + 30, sy - 20, sx + 30, sy - 150, '#9fc6ff'); label(ctx, 'Дээш: цөөн од', sx + 42, sy - 120, '#9fc6ff', 17);
-    label(ctx, 'Бид галактикийн хавтгай дотор байдаг тул', CX, 58, '#e8e2ff', 21, 'center');
-    label(ctx, 'шөнийн тэнгэрт Сүүн зам гэрэлтсэн зурвас болж харагдана', CX, 86, '#e8e2ff', 21, 'center');
-    label(ctx, '«Тэнгэрийн заадас»', CX, 118, '#ffd54f', 24, 'center');
     label(ctx, 'Зузаан ≈ 1 000 г.ж.  ·  Диаметр ≈ 100 000 г.ж.', CX, H - 30, '#c9d3ff', 17, 'center');
   }
   function drawType(ctx, k){
